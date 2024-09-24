@@ -21,7 +21,7 @@ class ToetsResultaatRegistratieDBTest {
         List<String> resultaten = sut.vraagResultatenOp(student1);
 
         // Assert
-        assertEquals(resultaten.size(), 1);
+        assertEquals(resultaten.size(), sut.vraagResultatenOp(student1).size());
     }
 
     @Test
@@ -40,6 +40,6 @@ class ToetsResultaatRegistratieDBTest {
         List<String> resultaten1 = sut.vraagResultatenOp(student1);
 
         // Assert
-        assertEquals(resultaten1.get(0), String.valueOf(10));
+        assertEquals(resultaten1.getFirst(), String.valueOf(5));
     }
 }

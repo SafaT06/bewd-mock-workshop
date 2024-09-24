@@ -13,9 +13,12 @@ Open een aantal verschillende classes en de bijbehorende unittests. Volg de code
 Probeer deze vragen te beantwoorden over de code:
 
 1. Welke classes worden er allemaal geraakt door de test. Beantwoord dit voor elke test.
-1. Wat voor wijzigingen in de code kunnen er voor zorgen dat deze test faalt?
-1. Welke klassen worden er getest?
-
+   
+2. Wat voor wijzigingen in de code kunnen er voor zorgen dat deze test faalt?
+   
+3. Welke klassen worden er getest?
+   
+   
 ### 3. Run alle unit tests
 
 Dit kan je in IntelliJ doen door op het test package te rechtsklikken op het project en te kiezen voor 'Run All tests'.
